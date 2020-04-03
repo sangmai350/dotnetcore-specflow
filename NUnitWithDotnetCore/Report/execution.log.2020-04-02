@@ -1,0 +1,8 @@
+2020-04-02 21:48:39,591 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-02 22:07:42,960 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-02 22:08:14,435 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
+2020-04-02 22:08:14,639 [NonParallelWorker] INFO Logging.Logger - Click Login button
+2020-04-02 22:08:16,524 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
+2020-04-02 22:44:51,686 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-02 23:00:45,099 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-02 23:41:37,800 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------

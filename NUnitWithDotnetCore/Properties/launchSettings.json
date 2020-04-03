@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "NUnitWithDotnetCore": {
+      "commandName": "Project"
+    },
+    "qa": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "TestUrl": "http://demo.guru99.com/V4/",
+        "TestPassword": "pYpunys",
+        "TestUser": "mngr251696"
+      }
+    }
+  }
+}

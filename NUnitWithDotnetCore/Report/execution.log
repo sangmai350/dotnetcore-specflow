@@ -1,0 +1,15 @@
+2020-04-03 09:21:23,005 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:23:09,872 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:27:41,360 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:28:45,778 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:28:49,423 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
+2020-04-03 09:28:49,630 [NonParallelWorker] INFO Logging.Logger - Click Login button
+2020-04-03 09:28:51,184 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
+2020-04-03 09:38:49,995 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:38:52,825 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
+2020-04-03 09:38:53,056 [NonParallelWorker] INFO Logging.Logger - Click Login button
+2020-04-03 09:38:54,262 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
+2020-04-03 09:39:46,381 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-03 09:39:49,414 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
+2020-04-03 09:39:49,626 [NonParallelWorker] INFO Logging.Logger - Click Login button
+2020-04-03 09:39:50,854 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
