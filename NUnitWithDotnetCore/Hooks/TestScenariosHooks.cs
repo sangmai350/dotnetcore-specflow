@@ -27,16 +27,21 @@ namespace BDD_Automation.Hooks
         
         private readonly WebDriver webDriver;
         Logging.Logger log = new Logging.Logger();
-        String FeatureTitle = FeatureContext.Current.FeatureInfo.Title;
-        String ScenarioTitle = ScenarioContext.Current.ScenarioInfo.Title;
+        public FeatureContext _featurecontext;
+        public ScenarioContext _scenariocontext;
         private static ExtentTest featureName;
         private static ExtentTest scenario;
         private static ExtentReports extent;
         private static string path;
-        public TestScenariosHooks(WebDriver driver)
+        public TestScenariosHooks(ScenarioContext scenarioContext, FeatureContext featureContext, WebDriver driver)
         {
+            _scenariocontext = scenarioContext;
+            _featurecontext = featureContext;
             webDriver = driver;
         }
+        //public TestScenariosHooks(WebDriver driver)
+        //{
+        //}
         [BeforeTestRun]
         public static void InitializeReport()
         {
@@ -59,11 +64,11 @@ namespace BDD_Automation.Hooks
         }
 
 
-        [AfterTestRun]
-        public static void TearDownReport()
-        {
-            extent.Flush();
-        }
+        //[AfterTestRun]
+        //public static void TearDownReport()
+        //{
+        //    extent.Flush();
+        //}
 
         [BeforeFeature]
         public static void BeforeFeature()
@@ -133,42 +138,15 @@ namespace BDD_Automation.Hooks
         [BeforeScenario]
         public void BeforeScenario()
         {
-            //scenario = featureName.CreateNode<Scenario>(ScenarioContext.Current.ScenarioInfo.Title);
-            log.Info("[SCENARIO] ---------------" + FeatureTitle + " - " + ScenarioTitle + "---------------");
+            log.Info("[SCENARIO] ---------------" + _featurecontext.FeatureInfo.Title + " - " + _scenariocontext.ScenarioInfo.Title + "---------------");
         }
 
         [AfterScenario]
         public void AfterScenario()
         {
-            
+            log.Info("Done");
             webDriver._driver.Quit();
             webDriver._driver.Dispose();
-            //try
-            //{
-            //    var status = TestContext.CurrentContext.Result.Outcome.Status;
-            //    var stacktrace = string.IsNullOrEmpty(TestContext.CurrentContext.Result.StackTrace) ? "" : string.Format("<pre>{0}</pre>", TestContext.CurrentContext.Result.StackTrace);
-            //    Status logstatus;
-
-            //    switch (status)
-            //    {
-            //        case TestStatus.Failed:
-            //            logstatus = Status.Fail;
-            //            break;
-            //        case TestStatus.Inconclusive:
-            //            logstatus = Status.Warning;
-            //            break;
-            //        case TestStatus.Skipped:
-            //            logstatus = Status.Skip;
-            //            break;
-            //        default:
-            //            logstatus = Status.Pass;
-            //            break;
-            //    }
-
-            //    ExtentTestManager.GetTest().Log(logstatus, "Test ended with status: " + logstatus + stacktrace);
-            //}
-            //catch { }
-            //ExtentManager.Instance.Flush();
         }
     }
 }

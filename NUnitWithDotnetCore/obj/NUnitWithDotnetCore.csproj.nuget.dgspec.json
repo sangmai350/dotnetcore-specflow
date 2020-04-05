@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\FOR_WORK\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj": {}
+    "C:\\Users\\yt\\Desktop\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj": {}
   },
   "projects": {
-    "H:\\FOR_WORK\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj": {
+    "C:\\Users\\yt\\Desktop\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\FOR_WORK\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj",
+        "projectUniqueName": "C:\\Users\\yt\\Desktop\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj",
         "projectName": "NUnitWithDotnetCore",
-        "projectPath": "H:\\FOR_WORK\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj",
-        "packagesPath": "C:\\Users\\sangmai\\.nuget\\packages\\",
-        "outputPath": "H:\\FOR_WORK\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\obj\\",
+        "projectPath": "C:\\Users\\yt\\Desktop\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\NUnitWithDotnetCore.csproj",
+        "packagesPath": "C:\\Users\\yt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yt\\Desktop\\NUnitWithDotnetCore\\NUnitWithDotnetCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sangmai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

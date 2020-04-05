@@ -8,8 +8,8 @@ namespace BDD_Automation.Steps
    public class LoginSteps : BaseSteps
     {
         private readonly WebDriver webDriver;
-        private readonly string user = System.Environment.GetEnvironmentVariable("TestUser");
-        private readonly string password = System.Environment.GetEnvironmentVariable("TestPassword");
+        private string user = System.Environment.GetEnvironmentVariable("TestUser");
+        private string password = System.Environment.GetEnvironmentVariable("TestPassword");
         private readonly string url = System.Environment.GetEnvironmentVariable("TestUrl");
 
         public LoginSteps(WebDriver driver) : base(driver)
@@ -20,8 +20,13 @@ namespace BDD_Automation.Steps
         [Given(@"I have navigated to the application")]
         public void GivenIHaveNavigatedToTheApplication()
         {
-            //webDriver._driver.Navigate().GoToUrl("http://demo.guru99.com/V4/");
-            webDriver._driver.Navigate().GoToUrl(url);
+            if (string.IsNullOrEmpty(url))
+            {
+                webDriver._driver.Navigate().GoToUrl("http://demo.guru99.com/V4/");
+            } else
+            {
+                webDriver._driver.Navigate().GoToUrl(url);
+            }
 
         }
 
@@ -29,8 +34,12 @@ namespace BDD_Automation.Steps
         public void GivenIHaveTypedUsernameAndPassword()
         {
             //loginPage.Login("mngr251696", "pYpunys");
+            if (string.IsNullOrEmpty(user))
+            {
+                user = "mngr251696";
+                password = "pYpunys";
+            }
             loginPage.Login(user, password);
-
         }
 
         [When(@"I click login button")]
