@@ -1,76 +1,22 @@
-2020-04-05 22:09:49,233 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 22:09:53,677 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 22:09:53,835 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 22:09:56,308 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 22:16:00,223 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 22:16:05,227 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 22:16:05,382 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 22:16:33,022 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 22:30:12,559 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.ScenarioContext - TechTalk.SpecFlow.FeatureContext---------------
-2020-04-05 22:32:03,537 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 23:03:20,338 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 23:05:38,327 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 23:05:41,792 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:05:41,945 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:05:43,431 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:15:40,770 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] --------------- - ---------------
-2020-04-05 23:15:43,790 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:15:43,939 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:15:45,247 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:18:50,257 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:19:02,952 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:19:03,110 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:19:04,749 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:22:37,903 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:22:50,142 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:22:50,293 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:22:51,618 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:27:44,600 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:27:57,013 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:27:57,168 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:27:58,485 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:29:45,161 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:29:57,612 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:29:57,773 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:29:59,565 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:33:51,513 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:34:04,145 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:34:04,295 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:34:05,718 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:35:16,216 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:35:28,854 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:35:29,005 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:35:30,387 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:39:37,739 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:39:50,052 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:39:50,209 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:39:51,958 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:41:22,278 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:41:45,385 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:41:49,110 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:41:49,268 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:41:50,914 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:44:30,310 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:44:33,201 [NonParallelWorker] INFO Logging.Logger - Login with username:  and password: 
-2020-04-05 23:45:53,126 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:48:00,151 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:48:03,017 [NonParallelWorker] INFO Logging.Logger - Login with username:  and password: 
-2020-04-05 23:51:18,899 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:51:22,006 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:51:22,159 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:51:23,942 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:52:20,227 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:52:23,343 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:52:23,502 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:52:24,782 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:52:24,810 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-05 23:52:50,907 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------TechTalk.SpecFlow.FeatureContext - TechTalk.SpecFlow.ScenarioContext---------------
-2020-04-05 23:52:53,863 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:52:54,015 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:52:55,548 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:52:55,577 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-05 23:55:27,106 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-05 23:55:30,081 [NonParallelWorker] INFO Logging.Logger - Login with username: mngr251696 and password: pYpunys
-2020-04-05 23:55:30,242 [NonParallelWorker] INFO Logging.Logger - Click Login button
-2020-04-05 23:55:32,014 [NonParallelWorker] INFO Logging.Logger - Wait For Hamburger menu displayed
-2020-04-05 23:55:32,041 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 14:38:04,059 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-09 14:39:04,161 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 14:39:45,597 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-09 14:40:45,666 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 14:46:44,381 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-09 14:46:46,379 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 15:05:42,921 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 15:05:48,351 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 15:09:41,918 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 15:09:45,552 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 15:23:29,686 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 15:23:37,864 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 15:26:16,138 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 15:26:22,122 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 16:24:30,210 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 16:24:39,088 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 16:26:32,622 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 16:26:36,703 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 16:35:03,094 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 16:35:10,228 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-09 16:36:04,578 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-09 16:36:09,745 [NonParallelWorker] INFO Logging.Logger - Done

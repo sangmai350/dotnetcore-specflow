@@ -1,5 +1,4 @@
-﻿using AventStack.ExtentReports;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -14,7 +13,6 @@ namespace BDD_Automation.Context
     {
         private IWebDriver _driver;
         private WebDriverWait _wait;
-        private ExtentTest _reporter;
         private string _path;
         private IJavaScriptExecutor _executor;
         private RandomHelper _random;
@@ -28,11 +26,10 @@ namespace BDD_Automation.Context
             throw new NotImplementedException();
         }
 
-        public Driver(IWebDriver driver, ExtentTest reporter, string path)
+        public Driver(IWebDriver driver, string path)
         {
             _driver = driver;
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["TIMEOUT"])));
-            _reporter = reporter;
             _path = path;
             _executor = _driver as IJavaScriptExecutor;
             _random = new RandomHelper();
