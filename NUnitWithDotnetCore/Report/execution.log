@@ -1,22 +1,24 @@
-2020-04-09 14:38:04,059 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-09 14:39:04,161 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 14:39:45,597 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-09 14:40:45,666 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 14:46:44,381 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
-2020-04-09 14:46:46,379 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 15:05:42,921 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 15:05:48,351 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 15:09:41,918 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 15:09:45,552 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 15:23:29,686 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 15:23:37,864 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 15:26:16,138 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 15:26:22,122 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 16:24:30,210 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 16:24:39,088 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 16:26:32,622 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 16:26:36,703 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 16:35:03,094 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 16:35:10,228 [NonParallelWorker] INFO Logging.Logger - Done
-2020-04-09 16:36:04,578 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
-2020-04-09 16:36:09,745 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 09:53:04,980 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 09:53:14,432 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 09:53:17,597 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 09:55:07,989 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 09:55:17,380 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 09:55:20,566 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 09:55:45,823 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 09:55:55,137 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 09:55:58,138 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 09:59:43,115 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 09:59:52,289 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 09:59:56,036 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 10:01:15,669 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 10:01:24,855 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 10:01:28,471 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 10:04:52,687 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 10:05:01,875 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 10:05:05,637 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 10:12:20,772 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 10:12:30,040 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 10:12:33,227 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-17 10:13:21,193 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-17 10:14:07,114 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-17 10:14:10,356 [NonParallelWorker] INFO Logging.Logger - Done

@@ -9,6 +9,7 @@ using AventStack.ExtentReports.Gherkin.Model;
 using AventStack.ExtentReports.Reporter;
 using TechTalk.SpecFlow.Bindings;
 using ExtensionMethods;
+using Newtonsoft.Json.Schema;
 
 namespace BDD_Automation.Hooks
 {
@@ -17,13 +18,14 @@ namespace BDD_Automation.Hooks
     {
         
         private readonly WebDriver webDriver;
-        Logging.Logger log = new Logging.Logger();
+        static Logging.Logger log = new Logging.Logger();
         public FeatureContext _featurecontext;
         public ScenarioContext _scenariocontext;
         private static ExtentTest _feature;
         private static ExtentTest _scenario;
         public static AventStack.ExtentReports.ExtentReports Extent;
-        private static readonly string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\netcoreapp3.0", "") + "Report\\index.html";
+        private static readonly string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\netcoreapp3.0", "") + "Report\\";
+        private static readonly string categories = Environment.GetEnvironmentVariable("TestCategory");
 
         public TestScenariosHooks(ScenarioContext scenarioContext, FeatureContext featureContext, WebDriver driver)
         {
@@ -34,7 +36,15 @@ namespace BDD_Automation.Hooks
         [BeforeTestRun]
         public static void ConfigureReport()
         {
-            var reporter = new ExtentHtmlReporter(path);
+            string path1;
+            if (categories != null)
+            {
+                path1 = path + categories + "\\index.html";
+            } else
+            {
+                path1 = path + "\\index.html";
+            }
+            var reporter = new ExtentHtmlReporter(path1);
             Extent = new AventStack.ExtentReports.ExtentReports();
             Extent.AttachReporter(reporter);
         }

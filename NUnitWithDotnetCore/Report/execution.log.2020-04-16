@@ -1,0 +1,12 @@
+2020-04-16 10:52:13,196 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-16 10:52:22,370 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-16 10:52:25,656 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-16 10:53:47,971 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-16 10:53:57,169 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Sample Navigation to worldometer - Sample Navigation to worldometer---------------
+2020-04-16 10:54:00,194 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-16 10:54:51,172 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-16 10:55:00,352 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-16 10:55:04,392 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-16 10:57:53,075 [NonParallelWorker] INFO Logging.Logger - arg System.String[]
+2020-04-16 10:58:02,302 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-16 10:58:05,526 [NonParallelWorker] INFO Logging.Logger - Done
