@@ -26,6 +26,8 @@ namespace BDD_Automation.Hooks
         public static AventStack.ExtentReports.ExtentReports Extent;
         private static readonly string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\netcoreapp3.0", "") + "Report\\";
         private static readonly string categories = Environment.GetEnvironmentVariable("TestCategory");
+        private static readonly string isReport = Environment.GetEnvironmentVariable("Report");
+
 
         public TestScenariosHooks(ScenarioContext scenarioContext, FeatureContext featureContext, WebDriver driver)
         {
@@ -36,17 +38,25 @@ namespace BDD_Automation.Hooks
         [BeforeTestRun]
         public static void ConfigureReport()
         {
-            string path1;
-            if (categories != null)
+            if (!isReport.Equals("yes"))
             {
-                path1 = path + categories + "\\index.html";
-            } else
-            {
-                path1 = path + "\\index.html";
+                return;
             }
-            var reporter = new ExtentHtmlReporter(path1);
-            Extent = new AventStack.ExtentReports.ExtentReports();
-            Extent.AttachReporter(reporter);
+            else
+            {
+                string path1;
+                if (categories != null)
+                {
+                    path1 = path + categories + "\\index.html";
+                }
+                else
+                {
+                    path1 = path + "\\index.html";
+                }
+                var reporter = new ExtentHtmlReporter(path1);
+                Extent = new AventStack.ExtentReports.ExtentReports();
+                Extent.AttachReporter(reporter);
+            }
         }
 
         [BeforeFeature]
@@ -92,7 +102,7 @@ namespace BDD_Automation.Hooks
         [AfterTestRun]
         public static void FlushExtent()
         {
-            Extent.Flush();
+            Extent.Flush(); 
         }
     }
 }
