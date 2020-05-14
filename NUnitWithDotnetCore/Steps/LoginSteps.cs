@@ -5,41 +5,33 @@ using TechTalk.SpecFlow;
 namespace BDD_Automation.Steps
 {
     [Binding]
-   public class LoginSteps : BaseSteps
+    public class LoginSteps : BaseSteps
     {
         private readonly WebDriver webDriver;
-        private string user = System.Environment.GetEnvironmentVariable("TestUser");
-        private string password = System.Environment.GetEnvironmentVariable("TestPassword");
-        private readonly string url = System.Environment.GetEnvironmentVariable("TestUrl");
+        private string _user = System.Environment.GetEnvironmentVariable("TestUser");
+        private string _password = System.Environment.GetEnvironmentVariable("TestPassword");
+        private string _url = System.Environment.GetEnvironmentVariable("TestUrl");
 
         public LoginSteps(WebDriver driver) : base(driver)
         {
             webDriver = driver;
         }
-     
+
         [Given(@"I have navigated to the application")]
         public void GivenIHaveNavigatedToTheApplication()
         {
-            if (string.IsNullOrEmpty(url))
-            {
-                webDriver._driver.Navigate().GoToUrl("http://demo.guru99.com/V4/");
-            } else
-            {
-                webDriver._driver.Navigate().GoToUrl(url);
-            }
+            _url = string.IsNullOrEmpty(_url) ? "http://demo.guru99.com/V4/" : _url;
+
+            webDriver._driver.Navigate().GoToUrl(_url);
 
         }
 
         [Given(@"I have typed username and password")]
         public void GivenIHaveTypedUsernameAndPassword()
         {
-            //loginPage.Login("mngr251696", "pYpunys");
-            if (string.IsNullOrEmpty(user))
-            {
-                user = "mngr251696";
-                password = "pYpunys";
-            }
-            loginPage.Login(user, password);
+            _user = string.IsNullOrEmpty(_user) ? "mngr260908" : _user;
+            _password = string.IsNullOrEmpty(_password) ? "UnuhUsy" : _password;
+            loginPage.Login(_user, _password);
         }
 
         [When(@"I click login button")]
@@ -47,12 +39,12 @@ namespace BDD_Automation.Steps
         {
             loginPage.ClickLogin();
         }
-     
+
 
         [Then(@"I should see the HomePage page")]
         public void ThenIShouldSeeTheHomePagePage()
         {
-           homePage.VerifyHomePage();
+            homePage.VerifyHomePage();
         }
     }
 }

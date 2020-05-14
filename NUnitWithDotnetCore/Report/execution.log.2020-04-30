@@ -1,0 +1,4 @@
+2020-04-30 22:43:12,339 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-30 22:43:20,677 [NonParallelWorker] INFO Logging.Logger - Done
+2020-04-30 22:48:30,689 [NonParallelWorker] INFO Logging.Logger - [SCENARIO] ---------------Login functionality - Verify if the login functionality is working---------------
+2020-04-30 22:48:39,107 [NonParallelWorker] INFO Logging.Logger - Done

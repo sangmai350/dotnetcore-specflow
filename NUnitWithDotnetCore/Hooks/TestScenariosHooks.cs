@@ -10,13 +10,14 @@ using AventStack.ExtentReports.Reporter;
 using TechTalk.SpecFlow.Bindings;
 using ExtensionMethods;
 using Newtonsoft.Json.Schema;
+using AventStack.ExtentReports.Utils;
 
 namespace BDD_Automation.Hooks
 {
     [Binding]
     public sealed class TestScenariosHooks
     {
-        
+
         private readonly WebDriver webDriver;
         static Logging.Logger log = new Logging.Logger();
         public FeatureContext _featurecontext;
@@ -24,9 +25,10 @@ namespace BDD_Automation.Hooks
         private static ExtentTest _feature;
         private static ExtentTest _scenario;
         public static AventStack.ExtentReports.ExtentReports Extent;
-        private static readonly string path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\netcoreapp3.0", "") + "Report\\";
-        private static readonly string categories = Environment.GetEnvironmentVariable("TestCategory");
-        private static readonly string isReport = Environment.GetEnvironmentVariable("Report");
+        private static readonly string _path = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug\\netcoreapp3.0", "") + "Report\\";
+
+        private static string _categories = Environment.GetEnvironmentVariable("Report");
+        private static string IsReport => string.IsNullOrEmpty(Environment.GetEnvironmentVariable("Report")) ? "yes" : Environment.GetEnvironmentVariable("Report");
 
 
         public TestScenariosHooks(ScenarioContext scenarioContext, FeatureContext featureContext, WebDriver driver)
@@ -38,22 +40,14 @@ namespace BDD_Automation.Hooks
         [BeforeTestRun]
         public static void ConfigureReport()
         {
-            if (!isReport.Equals("yes"))
+            if (!IsReport.Equals("yes"))
             {
                 return;
             }
             else
             {
-                string path1;
-                if (categories != null)
-                {
-                    path1 = path + categories + "\\index.html";
-                }
-                else
-                {
-                    path1 = path + "\\index.html";
-                }
-                var reporter = new ExtentHtmlReporter(path1);
+                string path = string.IsNullOrEmpty(_categories) ? _path + "\\index.html" : _path + _categories + "\\index.html";
+                var reporter = new ExtentHtmlReporter(path);
                 Extent = new AventStack.ExtentReports.ExtentReports();
                 Extent.AttachReporter(reporter);
             }
@@ -102,7 +96,7 @@ namespace BDD_Automation.Hooks
         [AfterTestRun]
         public static void FlushExtent()
         {
-            Extent.Flush(); 
+            Extent.Flush();
         }
     }
 }

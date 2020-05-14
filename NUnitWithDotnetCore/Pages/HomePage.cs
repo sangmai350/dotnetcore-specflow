@@ -5,11 +5,11 @@ namespace BDD_Automation.Pages
 {
     public class HomePage : BasePage
     {
-        private By hmbrgrMenu => By.CssSelector("marquee.heading3");
-        private By txtSrUsName => By.Id("searchByParamInput");
+        private By HmbrgrMenu => By.CssSelector("marquee.heading3");
+        private By TxtSrUsName => By.Id("searchByParamInput");
 
-        private WebDriver driver;
-        Logging.Logger log = new Logging.Logger();
+        private readonly WebDriver driver;
+        readonly Logging.Logger log = new Logging.Logger();
 
         public HomePage(WebDriver _driver)
         {
@@ -21,7 +21,7 @@ namespace BDD_Automation.Pages
             try
             {
                 log.Info("Wait For Hamburger menu displayed");
-                driver.WaitForCondition(d => d.FindElement(hmbrgrMenu).Displayed, "Wait for Hamberger menu to appear");
+                driver.WaitForCondition(driver => driver.FindElement(HmbrgrMenu).Displayed, "Wait for Hamberger menu to appear");
             }
             catch
             {
