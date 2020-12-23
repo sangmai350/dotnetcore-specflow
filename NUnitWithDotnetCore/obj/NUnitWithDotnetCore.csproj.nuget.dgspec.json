@@ -47,7 +47,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[16.8.3, )"
             },
             "NUnit": {
               "target": "Package",
@@ -57,7 +57,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.16.1, )"
+              "version": "[3.17.0, )"
             },
             "Protractor": {
               "target": "Package",
@@ -65,7 +65,7 @@
             },
             "RazorEngine.NetCore": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "[3.1.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
@@ -73,19 +73,19 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[80.0.3987.10600, )"
+              "version": "[87.0.4280.8800, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.1.95, )"
+              "version": "[3.5.14, )"
             },
             "SpecFlow.Tools.MsBuild.Generation": {
               "target": "Package",
-              "version": "[3.1.95, )"
+              "version": "[3.5.14, )"
             },
             "log4net": {
               "target": "Package",
-              "version": "[2.0.8, )"
+              "version": "[2.0.12, )"
             }
           },
           "imports": [

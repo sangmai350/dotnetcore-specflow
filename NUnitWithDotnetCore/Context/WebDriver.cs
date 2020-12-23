@@ -31,7 +31,11 @@ namespace BDD_Automation.Context
 
         public WebDriver()
         {
-            _driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions()
+            {
+                BinaryLocation = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            };
+            _driver = new ChromeDriver(options);
             _driver.Manage().Window.Maximize();
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["TIMEOUT"])));
             _path = Path.Combine(Path.GetDirectoryName(new Uri(typeof(WebDriver).Assembly.CodeBase).LocalPath), "ExtentReports");
